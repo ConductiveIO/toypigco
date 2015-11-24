@@ -1,0 +1,89 @@
+h3, h4, h5, p, span, ul, li, form {
+	font-family: 'Lora', serif;
+}
+
+h1, h2 {
+	font-family: 'Six Caps', sans-serif;
+	font-size:9em;
+}
+
+a, a:active, a:hover {
+	color:gray;
+}
+
+a:hover {
+	color:black;
+}
+
+.about {
+	height:450px;
+}
+
+.capa {
+	height:134px;
+}
+
+.contact {
+	height:434px;
+}
+
+#maincontent {
+	height:90%;
+}
+#footer {
+	height:10%;
+}
+
+#msg {
+	text-align:right;
+}
+
+.capa img {
+	width:80px;
+	height:80px;
+}
+
+.profile {
+	border-radius:120px;
+	height:90px;
+}
+
+input, textarea {
+	width:300px;
+	border: 1px solid #222222;
+}
+
+textarea {
+	height:300px;
+	border: 1px solid #222222;
+}
+
+button {
+	border-radius:10px;
+}
+
+label {
+	display:inline-block;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  h1, h2 {
+	font-size:5em;
+}
+}
+
+@media (max-width: 450px) {
+  h1, h2 {
+	font-size:4em;
+	}
+
+}
+
+@media (max-width: 1050px) {
+  hr {
+  	visibility:hidden;
+  }
+
+}
