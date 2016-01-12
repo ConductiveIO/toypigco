@@ -137,7 +137,7 @@ if(isset($_POST['submit'])){
               <div class="row">
                 <div class="large-1 columns">
                   <div>
-                      <button type="submit" name="submit">Send!</button>
+                      <button id="submit" type="submit" name="submit">Send!</button>
                   </div>
                 </div>
                 <div class="large-11 columns">
